@@ -2,6 +2,8 @@
     font-family: sans-serif;
     text-align: center;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 body {
@@ -10,4 +12,46 @@ body {
 
 canvas {
     background-color: #232323;
+}
+
+input {
+    border-radius: 4px;
+}
+
+button {
+    border-radius: 4px;
+}
+
+.MenuPart {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BodyPart {
+    height: 100%;
+    width: 100%;
+}
+
+.MenuContainer {
+    z-index: 400;
+}
+
+.ButtonContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.MenuLabel{
+    margin-top: 20px;
+}
+
+.MenuField{
+
+}
+
+.Constants{
+    display: flex;
+    flex-direction: column;
 }
